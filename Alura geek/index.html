@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>challenge Alura Geek</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        body{
+          background-image: url(./images/dark-grunge-texture.jpg);
+          background-size: cover;
+          background-repeat: no-repeat;
+          background-attachment: fixed;
+      }
+  </style>
+</head>
+
+
+<body>
+    <header >
+        
+        <div class="container-header">
+            
+            <img src="images/corazones.png" alt="">
+            <h1>AluraGeek</h1>
+        </div>
+    </header>
+    <main class="main-container">
+        
+        
+        <section class="left-section">
+            <input class="buscar" type="text" id="searchInput" placeholder="Buscar producto">
+            <div class="title">
+             <h1>MIS PRODUCTOS</h1>
+            </div>
+
+            <section class="cards">
+            <div data-product class="products-container">
+               <!-- <div class="img-container">
+                    <img src="images/producto1.svg" alt="imagen producto">
+                </div >
+                
+                <div class="card-container--info">
+                    <p>TITULO PRODUCTO</p>
+                </div>
+                <section class="inferior">
+                    <div class="card-container--value">
+                        <p> 300 COL $</p>
+                    </div>
+                    
+                    <button class="delete-button" data-id>
+                        <img src="images/Vector.png" alt="eliminar">
+
+                </button>
+            </section>-->
+            </div>
+        
+            </section>
+            
+                
+        </section>
+        <section>
+            <div>
+            <h1 class="rigth-title"> Agregar producto</h1>
+            <form class="form-container" data-form>
+                <input data-name placeholder = "nombre....." type="text">
+                <input data-price placeholder = "precio...." type="text">
+                <input data-image placeholder = "imagen...."  type="text">
+                <div class="button-container">
+                    <button type="submit" class="button-submit" id="button">Enviar</button>
+                    <button type="reset" class="button-clear" id="button">Limpiar</button>
+                </div>
+
+            </form>
+        </section>
+    </main>
+    <footer class="footer-container">
+        <div class="titulo-imagen">
+            <img src="images/corazones.png" alt="logo alurageek">
+            <h1>AluraGeek</h1>
+        </div>
+        <div class="pie">
+            <h2>DESARROLLADO POR YORMAN CARDONA</h2>
+            <p>Alura Latam 2024</p>
+        </div>
+
+    </footer>
+   
+    <script type="module" src="js/controllers/main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,25 @@
+{
+    "products":[
+{   "name":"SLIPKNOT CAMISETA",
+    "price":"50,000",
+    "image":"https://http2.mlstatic.com/D_NQ_NP_2X_662940-MCO74679148680_022024-F.webp",
+    "id":1
+  
+ },
+
+ 
+  {"name":"SODA CAMISETA",
+    "price":"50,000",
+    "image":"https://http2.mlstatic.com/D_NQ_NP_2X_601841-MCO74810172699_022024-F.webp",
+    "id":2
+
+ },
+ {"name":"LINKINPARK CAMISETA",
+ "price":"50,000",
+ "image":"https://http2.mlstatic.com/D_NQ_NP_2X_725522-MCO76845537148_062024-F.webp",
+ "id":3
+
+}
+
+    ]
+}
